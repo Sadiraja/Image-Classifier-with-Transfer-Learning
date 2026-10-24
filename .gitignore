@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch
+*.pt
+# Allow best_model.pth to be committed for evaluation and Streamlit app
+!models/best_model.pth
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Data cache (raw archive)
+data/*.tgz
+data/*.tar.gz
+data/flower_photos/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS generated files
+.DS_Store
+Thumbs.db

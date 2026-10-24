@@ -1,0 +1,94 @@
+{
+    "test_accuracy": 0.920863309352518,
+    "test_loss": 0.2264026688586036,
+    "total_samples": 556,
+    "class_names": [
+        "daisy",
+        "dandelion",
+        "roses",
+        "sunflowers",
+        "tulips"
+    ],
+    "classification_report": {
+        "daisy": {
+            "precision": 0.8773584905660378,
+            "recall": 0.96875,
+            "f1-score": 0.9207920792079208,
+            "support": 96.0
+        },
+        "dandelion": {
+            "precision": 0.9485294117647058,
+            "recall": 0.9485294117647058,
+            "f1-score": 0.9485294117647058,
+            "support": 136.0
+        },
+        "roses": {
+            "precision": 0.9042553191489362,
+            "recall": 0.8762886597938144,
+            "f1-score": 0.8900523560209425,
+            "support": 97.0
+        },
+        "sunflowers": {
+            "precision": 0.9345794392523364,
+            "recall": 0.9433962264150944,
+            "f1-score": 0.9389671361502347,
+            "support": 106.0
+        },
+        "tulips": {
+            "precision": 0.9292035398230089,
+            "recall": 0.8677685950413223,
+            "f1-score": 0.8974358974358975,
+            "support": 121.0
+        },
+        "accuracy": 0.920863309352518,
+        "macro avg": {
+            "precision": 0.9187852401110052,
+            "recall": 0.9209465786029873,
+            "f1-score": 0.9191553761159403,
+            "support": 556.0
+        },
+        "weighted avg": {
+            "precision": 0.9216514926818674,
+            "recall": 0.920863309352518,
+            "f1-score": 0.9205960038842811,
+            "support": 556.0
+        }
+    },
+    "confusion_matrix": [
+        [
+            93,
+            2,
+            1,
+            0,
+            0
+        ],
+        [
+            4,
+            129,
+            0,
+            2,
+            1
+        ],
+        [
+            3,
+            0,
+            85,
+            2,
+            7
+        ],
+        [
+            3,
+            3,
+            0,
+            100,
+            0
+        ],
+        [
+            3,
+            2,
+            8,
+            3,
+            105
+        ]
+    ]
+}
